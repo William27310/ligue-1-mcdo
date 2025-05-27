@@ -1,18 +1,38 @@
 body {
   background-color: white;
+  font-size: 75%;
 }
 body header {
   width: 75vw;
   margin: 0 auto;
   margin-top: 4rem;
 }
+@media (max-width: 414px) {
+  body header {
+    width: 100vw;
+    margin-top: 0;
+  }
+}
 body main {
   width: 75vw;
   margin: 0 auto;
 }
+@media (max-width: 414px) {
+  body main {
+    width: 100vw;
+  }
+}
 body main button {
   background-color: #FF7FDE;
   color: black;
+}
+body main .score {
+  width: 100%;
+}
+@media (max-width: 414px) {
+  body main .score {
+    width: 75rem;
+  }
 }
 body main .score .dierese {
   width: 5%;
