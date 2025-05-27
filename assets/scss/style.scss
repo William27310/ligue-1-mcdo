@@ -28,47 +28,79 @@ body {
 
         .score {
             width: 100%;
+
             @media (max-width:414px) {
-                width: 75rem;
+                width: 40rem;
             }
+
             .dierese {
                 width: 5%;
+                @media (max-width:414px) {
+                    width: auto;
+                }
             }
 
             .club {
                 width: 40%;
+                @media (max-width:414px) {
+                    width: auto;
+                }
             }
 
             .arrow {
                 width: 5%;
+                @media (max-width:414px) {
+                    width: auto;
+                }
             }
 
             .point {
                 width: 5%;
+                @media (max-width:414px) {
+                    width: auto;
+                }
             }
 
             .day {
                 width: 5%;
+                @media (max-width:414px) {
+                    width: auto;
+                }
             }
 
             .ratio {
                 width: 10%;
+                @media (max-width:414px) {
+                    width: auto;
+                }
             }
 
             .advantage {
                 width: 5%;
+                @media (max-width:414px) {
+                    width: auto;
+                }
             }
 
             .disadvantage {
                 width: 5%;
+                @media (max-width:414px) {
+                    width: auto;
+                }
             }
 
             .difference {
                 width: 5%;
+                @media (max-width:414px) {
+                    width: auto;
+                }
             }
 
             .shape {
                 width: 20%;
+                @media (max-width:414px) {
+                    width: auto;
+                }
             }
 
             tbody {

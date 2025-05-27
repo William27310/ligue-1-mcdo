@@ -31,38 +31,88 @@ body main .score {
 }
 @media (max-width: 414px) {
   body main .score {
-    width: 75rem;
+    width: 40rem;
   }
 }
 body main .score .dierese {
   width: 5%;
 }
+@media (max-width: 414px) {
+  body main .score .dierese {
+    width: auto;
+  }
+}
 body main .score .club {
   width: 40%;
+}
+@media (max-width: 414px) {
+  body main .score .club {
+    width: auto;
+  }
 }
 body main .score .arrow {
   width: 5%;
 }
+@media (max-width: 414px) {
+  body main .score .arrow {
+    width: auto;
+  }
+}
 body main .score .point {
   width: 5%;
+}
+@media (max-width: 414px) {
+  body main .score .point {
+    width: auto;
+  }
 }
 body main .score .day {
   width: 5%;
 }
+@media (max-width: 414px) {
+  body main .score .day {
+    width: auto;
+  }
+}
 body main .score .ratio {
   width: 10%;
+}
+@media (max-width: 414px) {
+  body main .score .ratio {
+    width: auto;
+  }
 }
 body main .score .advantage {
   width: 5%;
 }
+@media (max-width: 414px) {
+  body main .score .advantage {
+    width: auto;
+  }
+}
 body main .score .disadvantage {
   width: 5%;
+}
+@media (max-width: 414px) {
+  body main .score .disadvantage {
+    width: auto;
+  }
 }
 body main .score .difference {
   width: 5%;
 }
+@media (max-width: 414px) {
+  body main .score .difference {
+    width: auto;
+  }
+}
 body main .score .shape {
   width: 20%;
+}
+@media (max-width: 414px) {
+  body main .score .shape {
+    width: auto;
+  }
 }
 body main .score tbody .logo {
   width: 2.5rem;
