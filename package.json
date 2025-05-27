@@ -18,6 +18,7 @@
   "homepage": "https://github.com/William27310/ligue-1-mcdo#readme",
   "description": "",
   "dependencies": {
-    "bootstrap": "^5.3.6"
+    "bootstrap": "^5.3.6",
+    "bootstrap-icons": "^1.13.1"
   }
 }

@@ -1,0 +1,37 @@
+body {
+    background-color: white;
+
+    header {
+        width: 75vw;
+        margin: 0 auto;
+        margin-top: 4rem;
+    }
+
+    main {
+        width: 75vw;
+        margin: 0 auto;
+
+        .article {
+            background-color: #262624;
+
+            .title {
+                font-size: 1.1rem;
+                margin: 0;
+            }
+
+            .description {
+                font-size: 1.3rem;
+                font-weight: bold;
+                margin: 0.5rem 0 0 0;
+
+            }
+
+            .date {
+                font-weight: bold;
+                margin: 0.5rem 0 0 0;
+
+            }
+        }
+    }
+
+}

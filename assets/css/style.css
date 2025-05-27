@@ -1,3 +1,30 @@
-
+body {
+  background-color: white;
+}
+body header {
+  width: 75vw;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+body main {
+  width: 75vw;
+  margin: 0 auto;
+}
+body main .article {
+  background-color: #262624;
+}
+body main .article .title {
+  font-size: 1.1rem;
+  margin: 0;
+}
+body main .article .description {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 0.5rem 0 0 0;
+}
+body main .article .date {
+  font-weight: bold;
+  margin: 0.5rem 0 0 0;
+}
 
 /*# sourceMappingURL=style.css.map */
