@@ -12,33 +12,419 @@
 
 <body class="bg-black">
 
-    <header class="border border-dark">
+    <header>
 
         <div class="banner">
             <img src="assets/img/header.png" class="img-fluid" alt="">
         </div>
     </header>
 
-    <main class="border border-dark">
+    <main>
         <!-- Parent -->
         <div class="row m-0 p-0">
 
             <!-- Première colonne -->
-            <div class="col-lg-8 h-75 border border-danger">
+            <div class="col-lg-8 h-75 p-0">
 
-                <!-- article -->
-                <div class="row m-0 p-0">
-                    <div>
-                        <p>#</p>
-                        <p>Club</p>
-
+                <!-- Entête -->
+                <div class="entete">
+                    <div class="d-flex  m-0 justify-content-between">
+                        <div class="text-white d-flex justify-content-evenly align-items-middle">
+                            <button class="me-5 fs-1"><i class="bi bi-arrow-left"></i></button>
+                            <p class="mx-5 fs-3 fw-bold text-uppercase mt-3">Général<i class="ms-1 bi bi-chevron-down"></i></p>
+                            <button class="ms-5 fs-1"><i class="bi bi-arrow-right"></i></button>
+                        </div>
+                        <div class="col-3 text-end text-white fw-bold">
+                            <p class="mt-4">Saison 24/25<i class="ms-1 bi bi-chevron-down"></i></p>
+                        </div>
                     </div>
                 </div>
+
+                <!-- tableau -->
+                <table class="score table table-dark m-0">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="dierese">#</th>
+                            <th scope="col" class="club">Club</th>
+                            <th scope="col" class="arrow"></th>
+                            <th scope="col" class="point text-center">Pts</th>
+                            <th scope="col" class="day text-center">J.</th>
+                            <th scope="col" class="ratio text-center">G-N-P</th>
+                            <th scope="col" class="advantage text-center">But +</th>
+                            <th scope="col" class="disadvantage text-center">But -</th>
+                            <th scope="col" class="difference text-center">Diff</th>
+                            <th scope="col" class="shape text-center">Forme</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <!-- PSG -->
+                        <tr class="align-middle">
+                            <th scope="row">1</th>
+                            <td class="text-start fw-bold"><img src="assets/img/psg.png" class="logo" alt="logo du psg">PSG</td> 
+                            <td class="text-center"></td>
+                            <td class="text-center fw-bold">84</td>
+                            <td class="text-center text-secondary">34</td>
+                            <td class="text-center text-secondary">26-6-2</td>
+                            <td class="text-center text-secondary">92</td>
+                            <td class="text-center text-secondary">35</td>
+                            <td class="text-center text-secondary">57</td>
+                            <td class="text-center">
+                                <i class="bi bi-dash-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </td>
+                        </tr>
+
+                        <!-- OMG -->
+                        <tr class="align-middle">
+                            <th scope="row">2</th>
+                            <td class="text-start fw-bold"><img src="assets/img/omg.png" class="logo" alt="logo om">OMG</td>
+                            <td class="text-center"></td>
+                            <td class="text-center fw-bold">65</td>
+                            <td class="text-center text-secondary">34</td>
+                            <td class="text-center text-secondary">20-5-9</td>
+                            <td class="text-center text-secondary">74</td>
+                            <td class="text-center text-secondary">47</td>
+                            <td class="text-center text-secondary">27</td>
+                            <td class="text-center">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-dash-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </td>
+                        </tr>
+
+                        <!-- AS Monaco -->
+                        <tr class="align-middle">
+                            <th scope="row">3</th>
+                            <td class="text-start fw-bold"><img src="assets/img/monaco.png" class="logo" alt="logo monaco">AS Monaco</td>
+                            <td class="text-center"></td>
+                            <td class="text-center fw-bold">61</td>
+                            <td class="text-center text-secondary">34</td>
+                            <td class="text-center text-secondary">18-7-9</td>
+                            <td class="text-center text-secondary">63</td>
+                            <td class="text-center text-secondary">41</td>
+                            <td class="text-center text-secondary">22</td>
+                            <td class="text-center">
+                                <i class="bi bi-dash-circle-fill"></i>
+                                <i class="bi bi-dash-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                            </td>
+                        </tr>
+
+                        <!-- OGC Nice -->
+                        <tr class="align-middle">
+                            <th scope="row">4</th>
+                            <td class="text-start fw-bold"><img src="assets/img/nice.png" class="logo" alt="logo nice">OGC Nice</td>
+                            <td class="text-center"></td>
+                            <td class="text-center fw-bold">60</td>
+                            <td class="text-center text-secondary">34</td>
+                            <td class="text-center text-secondary">17-9-8</td>
+                            <td class="text-center text-secondary">66</td>
+                            <td class="text-center text-secondary">41</td>
+                            <td class="text-center text-secondary">25</td>
+                            <td class="text-center">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </td>
+                        </tr>
+
+                        <!-- LOSC -->
+                        <tr class="align-middle">
+                            <th scope="row">5</th>
+                            <td class="text-start fw-bold"><img src="assets/img/losc.png" class="logo" alt="logo losc">LOSC</td>
+                            <td class="text-center"></td>
+                            <td class="text-center fw-bold">60</td>
+                            <td class="text-center text-secondary">34</td>
+                            <td class="text-center text-secondary">17-9-8</td>
+                            <td class="text-center text-secondary">66</td>
+                            <td class="text-center text-secondary">41</td>
+                            <td class="text-center text-secondary">25</td>
+                            <td class="text-center">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-dash-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </td>
+                        </tr>
+
+                        <!-- OL -->
+                        <tr class="align-middle">
+                            <th scope="row">6</th>
+                            <td class="text-start fw-bold"><img src="assets/img/ol.png" class="logo" alt="logo ol">OL</td>
+                            <td class="text-center text-success"><i class="bi bi-caret-up-fill"></i>1</td>
+                            <td class="text-center fw-bold">84</td>
+                            <td class="text-center text-secondary">34</td>
+                            <td class="text-center text-secondary">26-6-2</td>
+                            <td class="text-center text-secondary">92</td>
+                            <td class="text-center text-secondary">35</td>
+                            <td class="text-center text-secondary">57</td>
+                            <td class="text-center">
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </td>
+                        </tr>
+
+                        <!-- Strasbourg -->
+                        <tr class="align-middle">
+                            <th scope="row">7</th>
+                            <td class="text-start fw-bold"><img src="assets/img/strasbourg.png" class="logo" alt="logo strasbourg">Strasbourg</td>
+                            <td class="text-center text-danger"><i class="bi bi-caret-down-fill"></i>1</td>
+                            <td class="text-center fw-bold">57</td>
+                            <td class="text-center text-secondary">34</td>
+                            <td class="text-center text-secondary">16-9-9</td>
+                            <td class="text-center text-secondary">56</td>
+                            <td class="text-center text-secondary">44</td>
+                            <td class="text-center text-secondary">12</td>
+                            <td class="text-center">
+                                <i class="bi bi-dash-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                            </td>
+                        </tr>
+
+                        <!-- RC Lens -->
+                        <tr class="align-middle">
+                            <th scope="row">8</th>
+                            <td class="text-start fw-bold"><img src="assets/img/rc lens.png" class="logo" alt="logo du rc lens">RC Lens</td>
+                            <td class="text-center text-success"><i class="bi bi-caret-up-fill"></i>1</td>
+                            <td class="text-center fw-bold">52</td>
+                            <td class="text-center text-secondary">34</td>
+                            <td class="text-center text-secondary">15-7-12</td>
+                            <td class="text-center text-secondary">42</td>
+                            <td class="text-center text-secondary">39</td>
+                            <td class="text-center text-secondary">3</td>
+                            <td class="text-center">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-dash-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </td>
+                        </tr>
+
+                        <!-- Brest -->
+                        <tr class="align-middle">
+                            <th scope="row">9</th>
+                            <td class="text-start fw-bold"><img src="assets/img/brest.png" class="logo" alt="logo du breast">Brest</td>
+                            <td class="text-center text-danger"><i class="bi bi-caret-down-fill"></i>1</td>
+                            <td class="text-center fw-bold">50</td>
+                            <td class="text-center text-secondary">34</td>
+                            <td class="text-center text-secondary">15-5-14</td>
+                            <td class="text-center text-secondary">52</td>
+                            <td class="text-center text-secondary">59</td>
+                            <td class="text-center text-secondary">-7</td>
+                            <td class="text-center">
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                            </td>
+                        </tr>
+
+                        <!-- Toulouse FC -->
+                        <tr class="align-middle">
+                            <th scope="row">10</th>
+                            <td class="text-start fw-bold"><img src="assets/img/toulouse fc.png" class="logo" alt="logo de Toulouse">Toulouse FC</td>
+                            <td class="text-center text-success"><i class="bi bi-caret-up-fill"></i>2</td>
+                            <td class="text-center fw-bold">42</td>
+                            <td class="text-center text-secondary">34</td>
+                            <td class="text-center text-secondary">11-9-14</td>
+                            <td class="text-center text-secondary">44</td>
+                            <td class="text-center text-secondary">43</td>
+                            <td class="text-center text-secondary">1</td>
+                            <td class="text-center">
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-dash-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-dash-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </td>
+                        </tr>
+
+                        <!-- AJ Auxerre -->
+                        <tr class="align-middle">
+                            <th scope="row">11</th>
+                            <td class="text-start fw-bold"><img src="assets/img/aj auxerre.png" class="logo" alt="logo d'Auxerre">AJ Auxerre</td>
+                            <td class="text-center text-danger"><i class="bi bi-caret-down-fill"></i>1</td>
+                            <td class="text-center fw-bold">42</td>
+                            <td class="text-center text-secondary">34</td>
+                            <td class="text-center text-secondary">11-9-141</td>
+                            <td class="text-center text-secondary">48</td>
+                            <td class="text-center text-secondary">51</td>
+                            <td class="text-center text-secondary">-3</td>
+                            <td class="text-center">
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-dash-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                            </td>
+                        </tr>
+
+                        <!-- Rennes -->
+                        <tr class="align-middle">
+                            <th scope="row">12</th>
+                            <td class="text-start fw-bold"><img src="assets/img/reine.png" class="logo" alt="logo de reine">Rennes</td>
+                            <td class="text-center text-danger"><i class="bi bi-caret-down-fill"></i>1</td>
+                            <td class="text-center fw-bold">41</td>
+                            <td class="text-center text-secondary">34</td>
+                            <td class="text-center text-secondary">13-2-19</td>
+                            <td class="text-center text-secondary">39</td>
+                            <td class="text-center text-secondary">52</td>
+                            <td class="text-center text-secondary">-13</td>
+                            <td class="text-center">
+                                <i class="bi bi-dash-circle-fill"></i>
+                                <i class="bi bi-dash-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-dash-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </td>
+                        </tr>
+
+                        <!-- FC Nantes -->
+                        <tr class="align-middle">
+                            <th scope="row">13</th>
+                            <td class="text-start fw-bold"><img src="assets/img/fc nantes.png" class="logo" alt="logo nantes">FC Nantes</td>
+                            <td class="text-center text-success"><i class="bi bi-caret-up-fill"></i>2</td>
+                            <td class="text-center fw-bold">36</td>
+                            <td class="text-center text-secondary">34</td>
+                            <td class="text-center text-secondary">8-12-14</td>
+                            <td class="text-center text-secondary">39</td>
+                            <td class="text-center text-secondary">52</td>
+                            <td class="text-center text-secondary">-13</td>
+                            <td class="text-center">
+                                <i class="bi bi-dash-circle-fill"></i>
+                                <i class="bi bi-dash-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-dash-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </td>
+                        </tr>
+
+                        <!-- Angers SCO -->
+                        <tr class="align-middle">
+                            <th scope="row">14</th>
+                            <td class="text-start fw-bold"><img src="assets/img/angers.png" class="logo" alt="logo d'angers">Angers SCO</td>
+                            <td class="text-center text-danger"><i class="bi bi-caret-down-fill"></i>1</td>
+                            <td class="text-center fw-bold">36</td>
+                            <td class="text-center text-secondary">34</td>
+                            <td class="text-center text-secondary">10-6-18</td>
+                            <td class="text-center text-secondary">32</td>
+                            <td class="text-center text-secondary">53</td>
+                            <td class="text-center text-secondary">-21</td>
+                            <td class="text-center">
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                            </td>
+                        </tr>
+
+                        <!-- Havre AC -->
+                        <tr class="align-middle">
+                            <th scope="row">15</th>
+                            <td class="text-start fw-bold"><img src="assets/img/havre.png" class="logo" alt="logo du havre">Havre AC</td>
+                            <td class="text-center text-success"><i class="bi bi-caret-up-fill"></i>1</td>
+                            <td class="text-center fw-bold">34</td>
+                            <td class="text-center text-secondary">34</td>
+                            <td class="text-center text-secondary">10-4-20</td>
+                            <td class="text-center text-secondary">33</td>
+                            <td class="text-center text-secondary">47</td>
+                            <td class="text-center text-secondary">-14</td>
+                            <td class="text-center">
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-dash-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </td>
+                        </tr>
+
+                        <!-- Reims -->
+                        <tr class="align-middle">
+                            <th scope="row">16</th>
+                            <td class="text-start fw-bold"><img src="assets/img/reims.png" class="logo" alt="logo de mon rein">Reims</td>
+                            <td class="text-center text-danger"><i class="bi bi-caret-down-fill"></i>2</td>
+                            <td class="text-center fw-bold">33</td>
+                            <td class="text-center text-secondary">34</td>
+                            <td class="text-center text-secondary">8-9-17</td>
+                            <td class="text-center text-secondary">33</td>
+                            <td class="text-center text-secondary">47</td>
+                            <td class="text-center text-secondary">-14</td>
+                            <td class="text-center">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-dash-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                            </td>
+                        </tr>
+
+                        <!-- ASSE -->
+                        <tr class="align-middle">
+                            <th scope="row">17</th>
+                            <td class="text-start fw-bold"><img src="assets/img/ass.png" class="logo" alt="logo d'ass">ASS</td>
+                            <td class="text-center"></td>
+                            <td class="text-center fw-bold">30</td>
+                            <td class="text-center text-secondary">34</td>
+                            <td class="text-center text-secondary">8-6-20</td>
+                            <td class="text-center text-secondary">39</td>
+                            <td class="text-center text-secondary">77</td>
+                            <td class="text-center text-secondary">-38</td>
+                            <td class="text-center">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                            </td>
+                        </tr>
+
+                        <!-- Montpellier -->
+                        <tr class="align-middle">
+                            <th scope="row">18</th>
+                            <td class="text-start fw-bold"><img src="assets/img/montpellier.png" class="logo" alt="logo de montpellier">Montpellier</td>
+                            <td class="text-center"></td>
+                            <td class="text-center fw-bold">16</td>
+                            <td class="text-center text-secondary">34</td>
+                            <td class="text-center text-secondary">4-4-26</td>
+                            <td class="text-center text-secondary">23</td>
+                            <td class="text-center text-secondary">79</td>
+                            <td class="text-center text-secondary">-56</td>
+                            <td class="text-center">
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-dash-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                                <i class="bi bi-x-circle-fill"></i>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
 
             </div>
 
             <!-- Seconde colonne -->
-            <div class="col-lg-4 h-75 border border-success">
+            <div class="col-lg-4 h-75">
 
                 <p class="h3 text-secondary text-uppercase fw-bold my-4">Chrono</p>
 
@@ -67,91 +453,91 @@
                     <p class="date text-white">
                         26/05/2025 à 11:58
                     </p>
-                    <p class="date text-white">
                     <hr class="text-secondary mb-0">
                 </div>
 
                 <!-- article 3 -->
-                <div>
-                    <p>
+                <div class="article px-3 pt-3">
+                    <p class="title badge rounded-0 bg-black text-secondary text-uppercase">
                         Bilan
                     </p>
-                    <p>
+                    <p class="description text-white text-uppercase">
                         Pourquoi la ligue 1 mcdonald's marque-t-elle plus de buts ?
                     </p>
-                    <p>
+                    <p class="date text-white">
                         26/05/2025 à 10:14
                     </p>
-                    <hr>
+                    <hr class="text-secondary mb-0">
                 </div>
 
                 <!-- article 4 -->
-                <div>
-                    <p>
+                <div class="article px-3 pt-3">
+                    <p class="title badge rounded-0 bg-black text-secondary text-uppercase">
                         Quiz
                     </p>
-                    <p>
+                    <p class="description text-white text-uppercase">
                         Quiz:les joueurs passés par la ligue 1 mcdonald's et l'inter
                     </p>
-                    <p>
+                    <p class="date text-white">
                         26/05/2025 à 10:06
                     </p>
-                    <hr>
+                    <hr class="text-secondary mb-0">
                 </div>
 
                 <!-- article 5 -->
-                <div>
-                    <p>
+                <div class="article px-3 pt-3">
+                    <p class="title badge rounded-0 bg-black text-secondary text-uppercase">
                         actu
                     </p>
-                    <p>
+                    <p class="description text-white text-uppercase">
                         europe:l'ol en ligue europa et strasbourg en ligue conférence
                     </p>
-                    <p>
+                    <p class="date text-white">
                         25/05/2025 à 18h21
                     </p>
-                    <hr>
+                    <hr class="text-secondary mb-0">
                 </div>
 
                 <!-- article 6 -->
-                <div>
-                    <p>
+                <div class="article px-3 pt-3">
+                    <p class="title badge rounded-0 bg-black text-secondary text-uppercase">
                         MPG
                     </p>
-                    <p>
+                    <p class="description text-white text-uppercase">
                         bilan mpg:les plus grosses progressions
                     </p>
-                    <p>
+                    <p class="date text-white">
                         23/05/2025 à 19h51
                     </p>
-                    <hr>
+                    <hr class="text-secondary mb-0">
                 </div>
 
                 <!-- article 7 -->
-                <div>
-                    <p>
+                <div class="article px-3 pt-3">
+                    <p class="title badge rounded-0 bg-black text-secondary text-uppercase">
                         Arbitrage By la poste
                     </p>
-                    <p>
+                    <p class="description text-white text-uppercase">
                         arbitres:le classement de la saison
                     </p>
-                    <p>
+                    <p class="date text-white">
                         22/05/2025 à 14h41
                     </p>
-                    <hr>
+                    <hr class="text-secondary mb-0">
                 </div>
 
                 <!-- article 8 -->
-                <div>
-                    <p>
+                <div class="article px-3 pt-3">
+                    <p class="title badge rounded-0 bg-black text-secondary text-uppercase">
                         Bilan
                     </p>
-                    <p>
+                    <p class="description text-white text-uppercase">
                         coupe d'europe:les clubs français avec le plus de participations
                     </p>
-                    <p>
+                    <p class="date text-white">
                         22/05/2025 à 10:08
                     </p>
+                    <hr class="text-secondary mb-0">
                 </div>
             </div>
 

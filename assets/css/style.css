@@ -10,6 +10,54 @@ body main {
   width: 75vw;
   margin: 0 auto;
 }
+body main button {
+  background-color: #FF7FDE;
+  color: black;
+}
+body main .score .dierese {
+  width: 5%;
+}
+body main .score .club {
+  width: 40%;
+}
+body main .score .arrow {
+  width: 5%;
+}
+body main .score .point {
+  width: 5%;
+}
+body main .score .day {
+  width: 5%;
+}
+body main .score .ratio {
+  width: 10%;
+}
+body main .score .advantage {
+  width: 5%;
+}
+body main .score .disadvantage {
+  width: 5%;
+}
+body main .score .difference {
+  width: 5%;
+}
+body main .score .shape {
+  width: 20%;
+}
+body main .score tbody .logo {
+  width: 2.5rem;
+  height: auto;
+  margin-right: 1rem;
+}
+body main .score tbody .bi-dash-circle-fill {
+  color: #696863;
+}
+body main .score tbody .bi-x-circle-fill {
+  color: #CC2002;
+}
+body main .score tbody .bi-check-circle-fill {
+  color: #1E8004;
+}
 body main .article {
   background-color: #262624;
 }

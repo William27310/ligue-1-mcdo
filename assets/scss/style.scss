@@ -11,6 +11,70 @@ body {
         width: 75vw;
         margin: 0 auto;
 
+        button {
+            background-color: #FF7FDE;
+            color: black;
+        }
+
+        .score {
+            .dierese {
+                width: 5%;
+            }
+
+            .club {
+                width: 40%;
+            }
+
+            .arrow {
+                width: 5%;
+            }
+
+            .point {
+                width: 5%;
+            }
+
+            .day {
+                width: 5%;
+            }
+
+            .ratio {
+                width: 10%;
+            }
+
+            .advantage {
+                width: 5%;
+            }
+
+            .disadvantage {
+                width: 5%;
+            }
+
+            .difference {
+                width: 5%;
+            }
+
+            .shape {
+                width: 20%;
+            }
+
+            tbody {
+                .logo {
+                    width: 2.5rem;
+                    height: auto;
+                    margin-right: 1rem;
+                }
+                .bi-dash-circle-fill {
+                    color: #696863;
+                }
+                .bi-x-circle-fill {
+                    color: #CC2002;
+                }
+                .bi-check-circle-fill {
+                    color: #1E8004;
+                }
+            }
+        }
+
         .article {
             background-color: #262624;
 
