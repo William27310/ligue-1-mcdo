@@ -1,6 +1,5 @@
 body {
   background-color: white;
-  font-size: 75%;
 }
 body header {
   width: 75vw;
@@ -26,8 +25,12 @@ body main button {
   background-color: #FF7FDE;
   color: black;
 }
+body main .legende {
+  font-size: 100%;
+}
 body main .score {
   width: 100%;
+  font-size: 75%;
 }
 @media (max-width: 414px) {
   body main .score {

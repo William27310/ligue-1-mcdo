@@ -1,6 +1,5 @@
 body {
     background-color: white;
-    font-size: 75%;
 
     header {
         width: 75vw;
@@ -26,8 +25,13 @@ body {
             color: black;
         }
 
+        .legende {
+            font-size: 100%;
+        }
+
         .score {
             width: 100%;
+            font-size: 75%;
 
             @media (max-width:414px) {
                 width: 40rem;
@@ -35,6 +39,7 @@ body {
 
             .dierese {
                 width: 5%;
+
                 @media (max-width:414px) {
                     width: auto;
                 }
@@ -42,6 +47,7 @@ body {
 
             .club {
                 width: 40%;
+
                 @media (max-width:414px) {
                     width: auto;
                 }
@@ -49,6 +55,7 @@ body {
 
             .arrow {
                 width: 5%;
+
                 @media (max-width:414px) {
                     width: auto;
                 }
@@ -56,6 +63,7 @@ body {
 
             .point {
                 width: 5%;
+
                 @media (max-width:414px) {
                     width: auto;
                 }
@@ -63,6 +71,7 @@ body {
 
             .day {
                 width: 5%;
+
                 @media (max-width:414px) {
                     width: auto;
                 }
@@ -70,6 +79,7 @@ body {
 
             .ratio {
                 width: 10%;
+
                 @media (max-width:414px) {
                     width: auto;
                 }
@@ -77,6 +87,7 @@ body {
 
             .advantage {
                 width: 5%;
+
                 @media (max-width:414px) {
                     width: auto;
                 }
@@ -84,6 +95,7 @@ body {
 
             .disadvantage {
                 width: 5%;
+
                 @media (max-width:414px) {
                     width: auto;
                 }
@@ -91,6 +103,7 @@ body {
 
             .difference {
                 width: 5%;
+
                 @media (max-width:414px) {
                     width: auto;
                 }
@@ -98,6 +111,7 @@ body {
 
             .shape {
                 width: 20%;
+
                 @media (max-width:414px) {
                     width: auto;
                 }
@@ -142,7 +156,7 @@ body {
             .date {
                 font-weight: bold;
                 margin: 0.5rem 0 0 0;
-
+                
             }
         }
     }
